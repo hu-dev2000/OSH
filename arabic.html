@@ -124,6 +124,158 @@
 </section>
 
 
+<section class="py-16 px-4 relative">
+  <div class="container mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-500">Our Projects</h2>
+
+      <!-- Left Arrow Button - Now visible on all screen sizes -->
+      <button id="scrollLeftBtn" class="absolute left-2 lg:left-8 top-1/2 -translate-y-1/2 bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg z-10 transition-all duration-300">
+          <i class="fas fa-chevron-left text-2xl"></i>
+      </button>
+
+      <!-- Projects Container - Horizontal Scrolling -->
+      <div id="projects-carousel" class="flex overflow-x-hidden snap-x snap-mandatory pb-4 no-scrollbar">
+        <!-- Project Card 1 -->
+        <div class="flex-shrink-0 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 snap-center p-4">
+            <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-transform hover:scale-[1.01] duration-300">
+                <!-- Main Photo -->
+                <img src="/projects-images/aswar/1.JPG"
+                     alt="Main Project Image 1"
+                     class="w-full h-auto object-cover rounded-t-lg">
+                <div class="p-6">
+                    <h3 class="text-3xl font-semibold mb-3 text-yellow-400">Aswar Al-Basra Complex</h3>
+                    <p class="text-gray-300 mb-5 text-lg leading-relaxed">
+                        Iraq Basra
+                    </p>
+                    <!-- Small Photos Grid -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
+                        <img src="projects-images/aswar/2.JPG"
+                             alt="Small Project Image 1a"
+                             class="w-full h-32 object-cover rounded-md shadow-md">
+                        <img src="/projects-images/aswar/3.JPG"
+                             alt="Small Project Image 1b"
+                             class="w-full h-32 object-cover rounded-md shadow-md">
+                        <img src="/projects-images/aswar/4.JPG"
+                             alt="Small Project Image 1c"
+                             class="w-full h-32 object-cover rounded-md shadow-md">
+                             <img src="/projects-images/aswar/5.JPG"
+                             alt="Small Project Image 1c"
+                             class="w-full h-32 object-cover rounded-md shadow-md">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- Project Card 2 -->
+          <div class="flex-shrink-0 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 snap-center p-4">
+              <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-transform hover:scale-[1.01] duration-300">
+                  <!-- Main Photo -->
+                  <img src="/projects-images/alfarah/6.jpg"
+                       alt="Main Project Image 2"
+                       class="w-full h-auto object-cover rounded-t-lg">
+                  <div class="p-6">
+                      <h3 class="text-3xl font-semibold mb-3 text-yellow-400">Al Farah Residential Complex</h3>
+                      <p class="text-gray-300 mb-5 text-lg leading-relaxed">
+                          العراق البصرة
+                      </p>
+                      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
+                          <img src="/projects-images/alfarah/7jpg.jpg"
+                               alt="Small Project Image 2a"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                          <img src="/projects-images/alfarah/8.jpg"
+                               alt="Small Project Image 2b"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                          <img src="/projects-images/alfarah/9.jpg"
+                               alt="Small Project Image 2c"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                          <img src="/projects-images/alfarah/10.jpg"
+                               alt="Small Project Image 2c"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="flex-shrink-0 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 snap-center p-4">
+              <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-transform hover:scale-[1.01] duration-300">
+                  <!-- Main Photo -->
+                  <img src="/projects-images/shatt-alarab/1jpg.JPG"
+                       alt="Main Project Image 3"
+                       class="w-full h-auto object-cover rounded-t-lg">
+                  <div class="p-6">
+                      <h3 class="text-3xl font-semibold mb-3 text-yellow-400">Shatt Al-Arab Residential Complex</h3>
+                      <p class="text-gray-300 mb-5 text-lg leading-relaxed">
+                        العراق البصرة
+                      </p>
+                      <!-- Small Photos Grid -->
+                      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
+                          <img src="/projects-images/shatt-alarab/2.JPG"
+                               alt="Small Project Image 3a"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                          <img src="/projects-images/shatt-alarab/3.JPG"
+                               alt="Small Project Image 3b"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                          <img src="/projects-images/shatt-alarab/4.JPG"
+                               alt="Small Project Image 3c"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                          <img src="/projects-images/shatt-alarab/5.JPG"
+                               alt="Small Project Image 3d"
+                               class="w-full h-32 object-cover rounded-md shadow-md">
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Add more project cards here following the same structure -->
+      </div>
+
+      <!-- Right Arrow Button - Now visible on all screen sizes -->
+      <button id="scrollRightBtn" class="absolute right-2 lg:right-8 top-1/2 -translate-y-1/2 bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg z-10 transition-all duration-300">
+          <i class="fas fa-chevron-right text-2xl"></i>
+      </button>
+  </div>
+</section>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+      const carousel = document.getElementById('projects-carousel');
+      const scrollLeftBtn = document.getElementById('scrollLeftBtn');
+      const scrollRightBtn = document.getElementById('scrollRightBtn');
+      const projectCards = carousel.querySelectorAll('.flex-shrink-0');
+
+      if (!carousel || projectCards.length === 0) {
+          // Console error if elements are not found, instead of early return.
+          console.error("Carousel or project cards not found. Scrolling functionality cannot be initialized.");
+      } else {
+          // Function to calculate card width based on screen size and Tailwind classes
+          const getCardWidth = () => {
+              const card = projectCards[0];
+              if (!card) return 0; // Return 0 if no card is found
+              // Get the actual rendered width of the card element, including padding
+              return card.offsetWidth;
+          };
+
+          const scrollCarousel = (direction) => {
+              const cardWidth = getCardWidth();
+              const scrollAmount = direction * cardWidth;
+              carousel.scrollBy({
+                  left: scrollAmount,
+                  behavior: 'smooth'
+              });
+          };
+
+          scrollLeftBtn.addEventListener('click', () => scrollCarousel(-1));
+          scrollRightBtn.addEventListener('click', () => scrollCarousel(1));
+
+          // Optional: Show/hide arrows based on scroll position (more advanced, not in initial request)
+          // You might want to add IntersectionObserver or scroll event listeners
+          // to manage arrow visibility if you have many cards.
+      }
+  });
+</script>
+
 <!-- About Us Section (Translated) -->
 <section id="aubout" class="py-16" dir="rtl">
   <div class="max-w-4xl mx-auto text-center px-4">
@@ -308,156 +460,7 @@
   </div>
 </section>
 
-<section class="py-16 px-4 relative">
-  <div class="container mx-auto">
-      <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-500">Our Projects</h2>
 
-      <!-- Left Arrow Button - Now visible on all screen sizes -->
-      <button id="scrollLeftBtn" class="absolute left-2 lg:left-8 top-1/2 -translate-y-1/2 bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg z-10 transition-all duration-300">
-          <i class="fas fa-chevron-left text-2xl"></i>
-      </button>
-
-      <!-- Projects Container - Horizontal Scrolling -->
-      <div id="projects-carousel" class="flex overflow-x-hidden snap-x snap-mandatory pb-4 no-scrollbar">
-        <!-- Project Card 1 -->
-        <div class="flex-shrink-0 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 snap-center p-4">
-            <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-transform hover:scale-[1.01] duration-300">
-                <!-- Main Photo -->
-                <img src="/projects-images/aswar/1.JPG"
-                     alt="Main Project Image 1"
-                     class="w-full h-auto object-cover rounded-t-lg">
-                <div class="p-6">
-                    <h3 class="text-3xl font-semibold mb-3 text-yellow-400">Aswar Al-Basra Complex</h3>
-                    <p class="text-gray-300 mb-5 text-lg leading-relaxed">
-                        Iraq Basra
-                    </p>
-                    <!-- Small Photos Grid -->
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
-                        <img src="projects-images/aswar/2.JPG"
-                             alt="Small Project Image 1a"
-                             class="w-full h-32 object-cover rounded-md shadow-md">
-                        <img src="/projects-images/aswar/3.JPG"
-                             alt="Small Project Image 1b"
-                             class="w-full h-32 object-cover rounded-md shadow-md">
-                        <img src="/projects-images/aswar/4.JPG"
-                             alt="Small Project Image 1c"
-                             class="w-full h-32 object-cover rounded-md shadow-md">
-                             <img src="/projects-images/aswar/5.JPG"
-                             alt="Small Project Image 1c"
-                             class="w-full h-32 object-cover rounded-md shadow-md">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-          <!-- Project Card 2 -->
-          <div class="flex-shrink-0 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 snap-center p-4">
-              <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-transform hover:scale-[1.01] duration-300">
-                  <!-- Main Photo -->
-                  <img src="/projects-images/alfarah/6.jpg"
-                       alt="Main Project Image 2"
-                       class="w-full h-auto object-cover rounded-t-lg">
-                  <div class="p-6">
-                      <h3 class="text-3xl font-semibold mb-3 text-yellow-400">Al Farah Residential Complex</h3>
-                      <p class="text-gray-300 mb-5 text-lg leading-relaxed">
-                          العراق البصرة
-                      </p>
-                      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
-                          <img src="/projects-images/alfarah/7jpg.jpg"
-                               alt="Small Project Image 2a"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                          <img src="/projects-images/alfarah/8.jpg"
-                               alt="Small Project Image 2b"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                          <img src="/projects-images/alfarah/9.jpg"
-                               alt="Small Project Image 2c"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                          <img src="/projects-images/alfarah/10.jpg"
-                               alt="Small Project Image 2c"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-          <!-- Project Card 3 -->
-          <div class="flex-shrink-0 w-full md:w-3/4 lg:w-2/3 xl:w-1/2 snap-center p-4">
-              <div class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-transform hover:scale-[1.01] duration-300">
-                  <!-- Main Photo -->
-                  <img src="/projects-images/shatt-alarab/1jpg.JPG"
-                       alt="Main Project Image 3"
-                       class="w-full h-auto object-cover rounded-t-lg">
-                  <div class="p-6">
-                      <h3 class="text-3xl font-semibold mb-3 text-yellow-400">Shatt Al-Arab Residential Complex</h3>
-                      <p class="text-gray-300 mb-5 text-lg leading-relaxed">
-                        العراق البصرة
-                      </p>
-                      <!-- Small Photos Grid -->
-                      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
-                          <img src="/projects-images/shatt-alarab/2.JPG"
-                               alt="Small Project Image 3a"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                          <img src="/projects-images/shatt-alarab/3.JPG"
-                               alt="Small Project Image 3b"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                          <img src="/projects-images/shatt-alarab/4.JPG"
-                               alt="Small Project Image 3c"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                          <img src="/projects-images/shatt-alarab/5.JPG"
-                               alt="Small Project Image 3d"
-                               class="w-full h-32 object-cover rounded-md shadow-md">
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-          <!-- Add more project cards here following the same structure -->
-      </div>
-
-      <!-- Right Arrow Button - Now visible on all screen sizes -->
-      <button id="scrollRightBtn" class="absolute right-2 lg:right-8 top-1/2 -translate-y-1/2 bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-full shadow-lg z-10 transition-all duration-300">
-          <i class="fas fa-chevron-right text-2xl"></i>
-      </button>
-  </div>
-</section>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-      const carousel = document.getElementById('projects-carousel');
-      const scrollLeftBtn = document.getElementById('scrollLeftBtn');
-      const scrollRightBtn = document.getElementById('scrollRightBtn');
-      const projectCards = carousel.querySelectorAll('.flex-shrink-0');
-
-      if (!carousel || projectCards.length === 0) {
-          // Console error if elements are not found, instead of early return.
-          console.error("Carousel or project cards not found. Scrolling functionality cannot be initialized.");
-      } else {
-          // Function to calculate card width based on screen size and Tailwind classes
-          const getCardWidth = () => {
-              const card = projectCards[0];
-              if (!card) return 0; // Return 0 if no card is found
-              // Get the actual rendered width of the card element, including padding
-              return card.offsetWidth;
-          };
-
-          const scrollCarousel = (direction) => {
-              const cardWidth = getCardWidth();
-              const scrollAmount = direction * cardWidth;
-              carousel.scrollBy({
-                  left: scrollAmount,
-                  behavior: 'smooth'
-              });
-          };
-
-          scrollLeftBtn.addEventListener('click', () => scrollCarousel(-1));
-          scrollRightBtn.addEventListener('click', () => scrollCarousel(1));
-
-          // Optional: Show/hide arrows based on scroll position (more advanced, not in initial request)
-          // You might want to add IntersectionObserver or scroll event listeners
-          // to manage arrow visibility if you have many cards.
-      }
-  });
-</script>
 
 <!-- Call to Action Section (Translated) -->
 <section class="w-full flex justify-center py-8 bg-transparent" dir="rtl">
